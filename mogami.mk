@@ -57,7 +57,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.softap.interface=wlan0 \
     wifi.softapconcurrent.interface=wlan0 \
-    ro.telephony.ril_class=SemcQualcomm7x30RIL \
+    ro.telephony.ril_class=SemcRIL \
+    ro.telephony.ril.v3=signalstrength \
     ro.telephony.default_network=0
 
 $(call inherit-product-if-exists, vendor/semc/mogami-common/mogami-common-vendor.mk)

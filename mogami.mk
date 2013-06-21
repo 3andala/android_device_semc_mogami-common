@@ -62,4 +62,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril.v3=signalstrength \
     ro.telephony.default_network=0
 
-$(call inherit-product-if-exists, vendor/semc/mogami-common/mogami-common-vendor.mk)
+# proprietary side of the board
+$(call inherit-product, vendor/semc/mogami-common/mogami-common-vendor.mk)

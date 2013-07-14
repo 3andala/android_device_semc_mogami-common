@@ -1,6 +1,4 @@
 #!/system/bin/sh
-/system/bin/insmod /system/lib/modules/wl12xx.ko debug_level=0x63c00
-
 if [ ! -f /data/etc/wifi/wl1271-nvs.bin ]; then
     mkdir /data/etc
     chmod 775 /data/etc

@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd.conf \
     wpa_supplicant.conf \
+	tiwlan.ini \
+    TQS_D_1.7.ini \
+    TQS_D_1.7_127x.ini \
     calibrator
 
 # wl1273 BT/FM

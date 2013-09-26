@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # Init file
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/rootdir/init.semc.rc:root/init.semc.rc
+    $(COMMON_PATH)/rootdir/init.board.rc:root/init.board.rc
 
 # WiFi config & related files
 PRODUCT_COPY_FILES += \
@@ -36,10 +36,8 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd.conf \
     wpa_supplicant.conf \
-	tiwlan.ini \
-    TQS_D_1.7.ini \
-    TQS_D_1.7_127x.ini \
-    calibrator
+    calibrator \
+    iw
 
 # wl1273 BT/FM
 PRODUCT_PACKAGES += \
